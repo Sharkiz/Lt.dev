@@ -1,0 +1,215 @@
+html,
+body {
+	background-color: #0067B1;
+	height: 100%;
+}
+
+h1,
+h2,
+h3 { margin: 0; padding: 0; }
+
+ul { margin: 0; padding: 0; list-style: none; }
+
+#wrap { 
+	  min-height: 100%;
+	  height: auto;
+	  /* Negative indent footer by it's height */
+	  margin: 0 auto -60px;	
+	  padding: 0 0 60px;
+}
+
+header {
+	padding-top: 150px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.content-block {
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	min-height: 100%;
+	padding-bottom: 320px;
+}
+
+.content-block div { overflow:  hidden; }
+
+.container {
+	width: 940px;
+	background-color: #fff;
+	margin-top: 120px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+/*---------------------------  .signin-block ------------------------*/
+
+.signin-block,
+.signup-block { 
+	margin: 0 auto;
+	width: 660px;
+	background-color: #fff;
+	overflow: hidden;
+	padding: 0 30px;
+	-webkit-box-shadow: -2px -3px 23px -7px rgba(0,0,0,0.57);
+	-moz-box-shadow: -2px -3px 23px -7px rgba(0,0,0,0.57);
+	box-shadow: -2px -3px 23px -7px rgba(0,0,0,0.57);
+	transition: 0.9s;
+}
+
+.signin-block:hover,
+.signup-block:hover {
+	transition:  0.9s;
+	-webkit-box-shadow: -2px -3px 47px -7px rgba(250,247,250,1);
+	-moz-box-shadow: 2px 1px 42px -6px rgba(245,235,245,1);
+	box-shadow: 2px 1px 45px -6px rgba(245,235,245,1);
+}
+
+.signin-block form { 
+	float: left; 
+	width: 300px; 
+	padding-top: 40px;
+	padding-right: 20px;
+}
+
+.signin-block form a {
+	float: right;
+	padding-top: 7px;
+}
+
+.quote-block {
+	width: 300px;
+	background-color: #fff;
+	float: left;
+	padding: 40px 10px 250px;
+	border-left: 1px dashed #000;
+}
+
+
+/*---------------------------  .signup-block ------------------------*/
+.signup-block {
+	width: 450px;
+	padding: 40px 30px;
+}
+
+/*---------------------------  .members-block ------------------------*/
+.menu { 
+	width: 100%; 
+	background-color:  #87AC28; 
+	padding: 20px 20px; 
+	border-radius: 5px 5px  0 0;
+	color:  #FFFFFF;
+	text-shadow: 1px 1px 2px black, 0 0 1em #FFFFFF;
+}
+
+.members-block {
+	background-color: #FFFFFF;
+	padding: 0 50px 200px;
+}
+
+.menu-member {
+	width: 230px;
+	float: left;
+	background: url('../img/member-bg.jpg');
+	padding: 34px 0 200px;
+	color: #fff;
+}
+
+.menu-member form { padding-left: 25px; }
+
+.menu-member a { color: #fff; }
+
+.menu-member span { display: block; }
+
+.menu-member span:last-child { padding-bottom: 15px; }
+
+.id-info { padding-top: 20px;}
+
+.user-menu li {
+	padding: 5px 0 5px 25px;
+	border-top: 1px solid rgba(47,53,52,.6);
+}
+
+.content-member { 
+	float: left;
+	margin: 30px 0 0 25px;
+}
+
+/*-------------------- .history-block -----------------*/
+.initial-title { 
+	display: block;
+	width: 380px;
+	padding-bottom: 5px; 
+	border-bottom: 1px solid #0067B1; 
+	margin-bottom: 15px;
+}
+
+.history-block ul { width: 350px; margin-bottom: 50px; }
+.history-block li { margin-bottom: 10px; }
+.history-block li:last-child { margin-bottom: 0; }
+
+.history-block li b { float: right; }
+
+.history-block thead { 
+	display: block; 
+	background: #F8FAFA; 
+	padding: 0 0 0 10px;
+	border: 1px solid #e4e6e8; 
+	border-radius: 8px 8px 0 0;
+}
+.history-block th,
+.history-block td { 
+	width: 120px; 
+	display: inline-block; 
+	padding: 10px 0; 
+	border-right: 1px solid #e4e6e8;
+	text-align: center; 
+}
+
+.history-block th:last-child { border: 0 none; }
+
+.history-block tbody { border-left: 1px solid #e4e6e8; }
+.history-block tbody tr { border-bottom: 1px solid #e4e6e8; }
+
+.history-block td { width: 131px; }
+
+.history-block td:nth-child(2),
+.history-block td:nth-child(3),
+.history-block td:nth-child(4) { width: 120px; }
+
+.success { color: green; }
+.inprocess { color: red; }  
+
+/*-------------------- .add-account-block -----------------*/
+.add-account-block p { margin-bottom: 40px; }
+
+.add-account-block .form-control { width: 220px; margin-bottom: 20px; }
+
+.add-account-block button { margin-bottom: 50px; }
+
+.add-account-block table { width: 500px; }
+
+
+/*-------------------- .withdraw-block -----------------*/
+.withdraw-block .form-control { width: 270px; display: block; }
+.withdraw-block select { margin-bottom: 25px; }
+
+.withdraw-block .input-group .form-control { width: 193px; }
+.withdraw-block .form-group { margin-right: 25px; }
+/*---------------------------  footer ------------------------*/
+#footer {
+	height: 60px;
+	background-color: #FFFFFF;
+}
+
+footer {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta charset="UTF-8">
+	<title>Project</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="wrap">
+	<div class="container">
+		<div class="menu-member">
+			<form action="">
+				<span>Здравствуйте, Василий Б.</span>
+				<span class="id-user">Ваш ID: LX459535</span>
+				<span class="balance">Ваш баланс: 23,70$</span>
+			</form>
+
+			<ul class="user-menu">
+				<li><a href="cabinet.html">История Баланса</a></li>
+				<li><a href="accounts.html">Счета</a></li>
+				<li><a href="add-account.html">Добавить Счет</a></li>
+				<li><a href="withdraw-balance.html">Вывод средств</a></li>
+				<li><a href="#">Личные данные</a></li>
+				<li><a href="affiliate.html">Реферальная программа (Affiliate)</a></li>
+				<li><a href="#">Стать Alfa</a></li>
+				<li><a href="#">Выход</a></li>
+			</ul>
+		</div>
+		<!-- .menu-member -->
+
+		<div class="content-member">
+			<div class="withdraw-block">
+				<h2 class="initial-title">Вывод средств</h2>
+				<p>Укажите сумму вывода</p>
+								
+				<form class="form-inline">
+				    <select class="form-control">
+					  <option>Выберите Платежнную систему</option>
+					  <option>Paypal</option>
+					  <option>Advcash</option>
+					  <option>Webmoney</option>
+					  <option>Qiwi</option>
+					  <option value="">Yandex m.</option>
+					</select>
+
+				  	<div class="form-group">
+				    	<label class="sr-only" for="exampleInputAmount">Сумма (в долларах)</label>
+				    	<div class="input-group">
+				      		<div class="input-group-addon">$</div>
+				      		<input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+				      	<div class="input-group-addon">.00</div>
+				    	</div>
+				  	</div><!-- .form-group -->
+
+				  <button type="submit" class="btn btn-primary">Вывод</button>
+				</form>
+
+				<table class="table">
+			      <caption>История баланса</caption>
+			      <thead>
+			        <tr>
+			          <th>Платежная система</th>
+			          <th>Дата</th>
+			          <th>Сумма</th>
+			          <th>Статус</th>
+			        </tr>
+			      </thead>
+			      <tbody>
+			        <tr>
+			          <td>AdvCash</td>
+			          <td>11.11.2015</td>
+			          <td>8.22$</td>
+			          <td class="success">Переведено</td>
+			        </tr>
+
+			        <tr>
+			          <td>Paypal</td>
+			          <td>14.11.2015</td>
+			          <td>12.52$</td>
+			          <td class="success">Переведено</td>
+			        </tr>
+
+			        <tr>
+			          <td>Qiwi</td>
+			          <td>14.11.2015</td>
+			          <td>15$.08</td>
+			          <td class="inprocess">В процессе</td>
+			        </tr>
+			      </tbody>
+			    </table>
+			</div>		
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<div class="container">footer &copy; 2015</div>
+</div>
+
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
